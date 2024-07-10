@@ -16,4 +16,8 @@ To install the required libraries, you can use pip:
 ##bash
 ```pip install opencv-python pillow```
 ## Running the script
-python pixel_to_coordinates.py <image_path> <x> <y>
+```python pixel_to_coordinates.py <image_path> <x> <y> --visualize```
+```<image_path>``` is the path to your image file
+```<x>``` is the x-coordinate of the pixel
+```<y>``` is the y-coordinate of the pixel
+
