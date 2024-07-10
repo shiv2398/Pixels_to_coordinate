@@ -18,7 +18,6 @@ def get_pixel_coordinates(image_path, pixel_position):
     Raises:
         ValueError: If the image cannot be loaded or if the pixel position is out of bounds.
     """
-    # Try loading the image with OpenCV first
     image = cv2.imread(image_path)
     
     if image is None:
